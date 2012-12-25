@@ -1,4 +1,4 @@
-Rails Locale Data Repository
+Rails Locale :sl
 ============================
 
 [![Build Status](https://secure.travis-ci.org/svenfuchs/rails-i18n.png)](http://travis-ci.org/svenfuchs/rails-i18n)
@@ -9,11 +9,7 @@ Central point to collect locale data for use in Ruby on Rails.
 
 Add to your Gemfile:
 
-    gem 'rails-i18n'
-
-or run this command:
-
-    gem install rails-i18n
+    gem 'rails-i18n', :git => 'git://github.com/tomazzlender/rails-i18n.git'
 
 Note that your rails version must be 3.0 or higher if you want to install `rails-i18n` as a gem. For rails 2.x, install it manually as described below.
 
@@ -28,7 +24,7 @@ specify in `config/environments/*` the locales which have to be loaded via
 
 or
 
-    config.i18n.available_locales = :nl
+    config.i18n.available_locales = :sl
 
 ## Manual installation
 
@@ -46,21 +42,7 @@ Locale data whose structure is compatible with Rails 2.3 are available on the se
 
 Available locales are:
 
-> ar, az, bg, bn-IN, bs, ca, cs, csb, cy, da, de, de-AT, de-CH, dsb, el, en-AU, en-CA, en-GB, en-IN, en-US, eo,
-> es, es-AR, es-CL, es-CO, es-419, es-MX, es-PE, es-VE, et, eu, fa, fi, fr, fr-CA, fr-CH, fur, gl-ES,
-> gsw-CH, he, hi, hi-IN, hr, hsb, hu, id, is, it, ja, kn, ko, lo, lt, lv, mk, mn, nb,
-> ne, nl, nn, pl, pt-BR, pt-PT, rm, ro, ru, sk, sl, sr, scr, sv-SE, sw, th,
-> tl, tr, uk, uz, vi, wo, zh-CN, zh-TW
-
-Following locales are complete:
-
-> az, bg, bs, ca, csb, da, de, de-AT, de-CH, el, en-AU, en-CA, en-GB, en-IN, en-US, eo, es, es-AR, es-CL, es-CO, es-419, es-MX, es-VE, et,
-> eu, fa, fi, fr, fr-CA, fr-CH, fur, gsw-CH, he, hi, hi-IN, hr, hu, is, it, ja, kn, ko, lv, mk, mn, nb, ne
-> nl, pt-BR, pt-PT, ru, sk, sr, scr, sv-SE, sw, th, tl, uk, vi, wo, zh-CN, zh-TW
-
-Following locales have some missing translations or pluralizations:
-
-> ar, bn-IN, cs, cy, dsb, es-PE, gl-ES, hsb, id, lo, lt, nn, pl, rm, ro, sl
+> sl
 
 We always welcome your contributions!
 
